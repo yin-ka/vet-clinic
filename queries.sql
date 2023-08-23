@@ -14,3 +14,11 @@ SELECT * FROM animals WHERE name <> 'Gabumon';
 
 SELECT * FROM animals WHERE weight_kg BETWEEN 10.40 AND 17.30;
 
+-- Update and Delete
+BEGIN;
+
+UPDATE animals SET species = 'unspecified';
+
+SELECT * FROM animals;
+
+ROLLBACK;
