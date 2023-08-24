@@ -23,6 +23,8 @@ SELECT * FROM animals;
 
 ROLLBACK;
 
+SELECT species from animals;
+
 -- Setting animals species
 BEGIN;
 
