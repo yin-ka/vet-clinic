@@ -130,7 +130,7 @@ If you like this project please follow me on github and also connect on Linkedin
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/yin-ka/vet-clinic-/blob/animals/MIT.md) licensed.
+This project is [MIT](https://github.com/yin-ka/vet-clinic/blob/query-and-update-animals-table/LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
