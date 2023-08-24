@@ -12,17 +12,19 @@ CREATE TABLE animals(
 ALTER TABLE animals ADD COLUMN species TEXT;
 
 -- Create table owners 
-CREATE TABLE owners(
+CREATE TABLE owners (
     id INT GENERATED ALWAYS AS IDENTITY,
     full_name VARCHAR(255),
-    age INT
- )
+    age INT,
+    PRIMARY KEY (id)
+);
 
 --  Create table species
-CREATE TABLE species(
+CREATE TABLE species (
     id INT GENERATED ALWAYS AS IDENTITY,
     name VARCHAR(255),
- )
+    PRIMARY KEY (id)
+);
 
 --  Remove column species
 ALTER TABLE animals DROP COLUMN species;
