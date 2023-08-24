@@ -1,23 +1,29 @@
+<a name="readme-top"></a>
+
+<div align="center">
+  <br/>
+
+  <h3><b>Vet-clinic-database</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  - [🦻 Walkthrough  Video](#walkthrough-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -26,74 +32,105 @@
 
 **[vet-clinic]** is a website for testing PostgreSQL, while creating a table, inserting data and querying data.
 
-## 🛠 Built With <a name="built-with">PostgreSQL</a>
+## 🛠 Built With <a name="built-with"></a>
+- SQL
+- PostgreSQL
 
-### Tech Stack <a name="tech-stack">PostgreSQL, pgAdmin</a>
-
+### Tech Stack <a name="tech-stack"></a>
 <details>
-<summary>Database</summary>
+  <summary>Version Control</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://github.com/">Git Hub</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Visual Studio Code</summary>
+  <ul>
+    <li><a href="https://code.visualstudio.com">Visual Studio Code</a></li>
   </ul>
 </details>
 
+<!-- Features -->
+
 ### Key Features <a name="key-features"></a>
 
-- **[Created table for the animals]**
-- **[Inserted data into table]**
-- **[Queried data using different commands]**
+- **Install Postgress**
+- **Use pgAdmin4**
+- **Follow Gitflow**
+- **Create Database**
+- **Create Table**
+- **Query Table**
+- **Insert data in table**
+- **Use Rollback, Savepoint, and commit**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- WalkThrough Video -->
+
+## 🦻 WalkThrough Video <a name="#walkthrough-demo"></a>
+
+-  Comming Soon...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+- Visual Studio Code.
+- PostgreSQL.
+- pgAdmin.
+- GitHub Account.
 
 ### Setup
 
 Clone this repository to your desired folder:
+Use git clone command or download ZIP folder
 
-```sh
-  git clone https://github.com/yin-ka/vet-clinic.git
-  cd vet-clinic
-```
+### Deployment
 
+Not yet deployed ...
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
-
-👤 **Author**
-
-- GitHub: [@Yin-ka](https://github.com/yin-ka)
+👤 **Yusuf Sholotan**
+- GitHub: [@yin-ka](https://github.com/yin-ka)
 - LinkedIn: [Yusuf Sholotan](https://www.linkedin.com/in/yusuf-sholotan/)
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a><br/>
+- [ ] **Adding multip databases**<br/>
+- [ ] **Add more operations**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🔭 Future Features <a name="future-features"></a>
-
-
-- [ ] **[add "join table" for visits.]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/yin-ka/vet-clinic/issues).
-
+Contributions, issues, and feature requests are welcome!<br/>
+Feel free to check the [git@github.com:yin-ka/Microverse.git](../../issues/).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-
-If you like this project please give it a star and share it with your friends.
-
+If you like this project please follow me on github and also connect on Linkedin.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+- I would like to thank Microverse for this exercise. <br>
 
-I would like to thank Microverse for this learning opportunity.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- FAQ (optional) -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/yin-ka/vet-clinic/blob/dev/LICENSE) licensed.
+This project is [MIT](https://github.com/yin-ka/vet-clinic-/blob/animals/MIT.md) licensed.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
