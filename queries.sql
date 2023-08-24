@@ -89,3 +89,56 @@ SELECT animals.name AS animal_name, species.name AS species_name FROM animals JO
 SELECT animals.name AS animal_name, animals.escape_attempts FROM animals JOIN owners ON animals.owner_id = owners.id WHERE owners.full_name = 'Dean Winchester' AND animals.escape_attempts = 0;
 
 SELECT owners.full_name, COUNT(animals.id) AS num_animals FROM owners LEFT JOIN animals ON owners.id = animals.owner_id GROUP BY owners.id, owners.full_name ORDER BY num_animals DESC LIMIT 1;
+
+-- Day 4
+
+SELECT name AS animal 
+FROM animals 
+JOIN visits ON animals.id = visits.animals_id 
+WHERE date_of_visit = '2021-01-11';
+
+SELECT name AS animal 
+FROM animals 
+JOIN visits ON animals.id = visits.animals_id 
+WHERE vets_id = 3;
+
+SELECT vets.name AS vet, species.name AS species 
+FROM vets 
+LEFT JOIN specializations ON vets.id = specializations.vet_id
+LEFT JOIN species ON specializations.species_id = species.id;
+
+ SELECT animals.name AS animal 
+ FROM animals 
+ JOIN visits ON animals.id = visits.animals_id 
+ WHERE (vets_id = 3) AND (date_of_visit BETWEEN '2020-04-01' AND '2020-08-30');
+
+ SELECT animals.name AS animal, COUNT(vets_id) AS visits 
+ FROM animals 
+ JOIN visits ON animals.id = visits.animals_id 
+ GROUP BY animals.name 
+ ORDER BY visits DESC 
+ LIMIT 1;
+
+ SELECT name AS animal 
+ FROM animals 
+ JOIN visits ON animals.id = visits.animals_id 
+ WHERE date_of_visit = '2020-01-05';
+
+ SELECT animals.name AS animal, vets.name, date_of_visit 
+ FROM animals 
+ JOIN visits ON animals.id = visits.animals_id 
+ JOIN vets ON visits.vets_id = vets.id 
+ WHERE vets_id = 1 AND date_of_visit = '2021-01-11';
+
+ SELECT COUNT(DISTINCT date_of_visit) AS visits
+ FROM visits 
+ JOIN animals ON visits.animals_id = animals.id 
+ WHERE date_of_visit 
+ IN ('2020-05-24', '2020-07-22', '2020-01-05', '2020-03-08', '2020-05-14', '2021-02-24', '2019-12-21', '2020-08-10', '2021-04-07', '2019-01-24', '2019-05-15', '2020-02-27', '2020-08-03');
+
+ SELECT species.name AS specialty 
+ FROM animals 
+ JOIN visits ON animals.id = visits.animals_id 
+ JOIN species ON animals.species_id = species.id 
+ WHERE animals.id = 9 AND vets_id = 2 
+ LIMIT 1;
